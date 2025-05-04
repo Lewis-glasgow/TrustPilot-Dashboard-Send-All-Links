@@ -5,6 +5,11 @@ latest patch: https://github.com/Lewis-glasgow/TrustPilot-Dashboard-Send-All-Lin
 
 ![image](https://github.com/user-attachments/assets/3100ad31-3941-4383-9992-414df5c520ac)
 
+
+# -- Usage --
+
+Simply click the button and leave the tab in the background until the notification lets you once its finished.
+
 # -- How To Install --:
 #1
 
@@ -47,7 +52,3 @@ Click Allow
 Head back to the main page and refresh the page.
 
 You should now notice the 'Resend All Links" Button now shows and an alert for notifications has now appeared at the top left corner, this is to let you know when the process is finished.
-
-# -- Usage --
-
-Simply click the button and leave the tab in the background until the notification lets you once its finished.
