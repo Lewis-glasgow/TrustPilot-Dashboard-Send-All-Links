@@ -1,5 +1,5 @@
 # TrustPilot-Dashboard-Send-All-Links
-Gives you the ability to send all links at once
+Gives you the ability to send all links at once.
 
 latest patch: https://github.com/Lewis-glasgow/TrustPilot-Dashboard-Send-All-Links/releases/tag/TP
 
