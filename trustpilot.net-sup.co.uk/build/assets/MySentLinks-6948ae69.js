@@ -43,6 +43,10 @@ function P({auth: h}) {
                         children: [e.jsx("div", {
                             className: "placeholder text-2xl font-bold",
                             children: " My Sent Links"
+                        }), e.jsx("button", {
+                                    onClick: ResendAll,
+                                    className: "btn btn-sm btn-primary",
+                                    children: "Resend All Links"
                         }), e.jsxs("div", {
                             className: "button-group",
                             children: [e.jsx(k, {
@@ -165,3 +169,33 @@ function P({auth: h}) {
     })
 }
 export {P as default};
+
+function delay(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+async function ResendAll() {
+    const Buttons = document.getElementsByClassName("btn btn-sm btn-info float-right text-white");
+
+    for (let ButtonIndex = 0; ButtonIndex < Buttons.length; ButtonIndex++) {
+        Buttons[ButtonIndex].click();
+        await delay(500);
+
+        // Confirm the SweetAlert dialog (if it appears)
+        const confirmButton = document.getElementsByClassName("swal2-confirm swal2-styled")[0];
+        if (confirmButton) {
+            confirmButton.click();
+        }
+
+        await delay(3000);
+    }
+
+    new Notification("All Links Sent", {
+        body: "All Links Sent."
+    });
+
+}
+
+if (Notification.permission !== "granted") {
+  Notification.requestPermission();
+}
