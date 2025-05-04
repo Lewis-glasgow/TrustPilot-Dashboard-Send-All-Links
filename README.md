@@ -1,7 +1,7 @@
 # TrustPilot-Dashboard-Send-All-Links
 Gives you the ability to send all links at once
 
-latest patch: 
+latest patch: https://github.com/Lewis-glasgow/TrustPilot-Dashboard-Send-All-Links/releases/tag/TP
 
 ![image](https://github.com/user-attachments/assets/3100ad31-3941-4383-9992-414df5c520ac)
 
@@ -34,7 +34,7 @@ Find 'MySentLinks-6948ae69.js' in /build/assets/MySentLinks-6948ae69.js, and cli
 
 Select the folder where the feature is
 
-Please click the link for the latest patch: 
+Please click the link for the latest patch: https://github.com/Lewis-glasgow/TrustPilot-Dashboard-Send-All-Links/releases/tag/TP
 
 ![image](https://github.com/user-attachments/assets/bef8ec6a-8cc4-4403-a69d-88f6ea19865b)
 
